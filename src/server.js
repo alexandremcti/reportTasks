@@ -26,7 +26,7 @@ const routes = {
 
 server.post('/tasks', routes['/tasks'])
 
-const app = server.listen(3000, () => console.log("app runing at ", 3000));
+const app = server.listen(3000, () => console.log("new app runing at ", 3000));
 
 module.exports = app;
 
